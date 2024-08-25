@@ -1,0 +1,9 @@
+/* Estilos para o Main */
+.main {
+  flex: 1; /* Ocupe o espaço restante à direita do .nav */
+  padding: 20px; /* Espaçamento interno */
+  margin-left: 10px; /* Espaço igual à largura do .nav para alinhamento correto */
+  margin-top: 20px; /* Espaço igual à largura do .nav para alinhamento correto */
+  background-color: #fff; /* Fundo branco */
+  padding-top: 60px; /* Espaço suficiente para evitar sobreposição do Header */
+}

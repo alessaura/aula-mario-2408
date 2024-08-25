@@ -1,0 +1,17 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  display: flex;
+}
+
+.content-container {
+  margin-left: 200px; /* Deve ser igual à largura do .nav */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}

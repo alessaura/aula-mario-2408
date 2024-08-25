@@ -1,0 +1,53 @@
+/* index.css */
+
+/* Reset básico de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Define a fonte padrão e o tamanho do texto */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Estilo para o contêiner principal */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  /* Estilo para cabeçalhos */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para parágrafos */
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para links */
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  

@@ -1,0 +1,30 @@
+.nav {
+  width: 200px; /* Ajuste conforme necessário */
+  background-color: #f0f0f0; /* Fundo claro */
+  padding-top: 20px;
+  position: fixed;
+  left: 0;
+  top: 50px; /* Ajuste conforme necessário */
+  bottom: 50px; /* Ajuste conforme necessário */
+  height: calc(100% - 50px); /* Ajuste conforme necessário */
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav li {
+  margin: 5px 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333; /* Cor do texto */
+  display: block;
+  padding: 10px;
+}
+
+.nav a:hover {
+  background-color: #ddd; /* Cor de fundo ao passar o mouse */
+}

@@ -1,0 +1,10 @@
+.aside {
+  width: 200px; /* Ajuste conforme necessário */
+  background-color: #e0e0e0; /* Fundo claro */
+  padding: 20px;
+  margin-top: 20px; /* Espaçamento superior para separar do Nav */
+  position: fixed;
+  left: 0;
+  top: calc(50px + 200px); /* Ajuste conforme necessário */
+  height: calc(100% - 50px - 200px); /* Ajuste conforme necessário */
+}
